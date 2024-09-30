@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white; /* Цвет текста для контраста */
+    background-color: blue; /* Цвет фона */
+    padding: 10px 20px; /* Внутренние отступы для создания овала */
+    border-radius: 20px; /* Радиус скругления углов */
+    transition: background-color 0.3s; /* Эффект при наведении */
+}
+
+nav a:hover {
+    background-color: darkblue; /* Цвет фона при наведении */
+}
+
+.article {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#article1 {
+    background-color: #e0f7fa; /* светло-голубой для четной статьи */
+}
+
+#article2 {
+    background-color: #ffe0b2; /* светло-оранжевый для нечетной статьи */
+}
+
+#article3 {
+    background-color: #e0f7fa; /* светло-фиолетовый для четной статьи */
+}
+
+#article4 {
+    background-color: #ffe0b2; /* светло-желтый для нечетной статьи */
+}
+
+.img1 {
+    background: url("/images/freedurov.webp") 50% / cover no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.img2 {
+    background: url("/images/kondiccii.jpg") 50% / cover no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.img3 {
+    background: url("/images/UFO.jpg") 50% / cover no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.img4 {
+    background: url("/images/sharingan.jpg") 50% / cover no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
